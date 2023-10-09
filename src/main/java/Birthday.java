@@ -1,4 +1,3 @@
-import java.util.Date;
 public class Birthday {
 	private int month, day, year;
 	
@@ -34,6 +33,6 @@ public class Birthday {
 
 	@Override
 	public String toString() {
-		return "Birthday [month=" + month + ", day=" + day + ", year=" + year + "]";
+		return month + "/" + day + "/" + year;
 	}
 }
